@@ -32,8 +32,6 @@ body {
 
 .conteneidor {
     padding: 70px 0;
-    width: 100%;
-    max-width: 1000px;
     margin: auto;
     text-align: center;
     overflow: hidden;
@@ -538,6 +536,12 @@ main .sobre-nosotros{
     text-align: justify;
 }
 
+
+iframe{
+	width: 750px;
+	height: 450px;
+}
+
 /* footer */
 
 footer{
@@ -638,6 +642,10 @@ footer{
     .servicio-ind img{
         width: 90%;
     }
+
+    iframe{
+	width: 75%;
+}
 }
 
 @media screen and (max-width:500px){
@@ -688,6 +696,11 @@ footer{
         width: 90px;
         height: 90px;
     }
+
+    iframe{
+    	width: 95%;
+	height: 250px;
+}
 
     /* Footer */
 
